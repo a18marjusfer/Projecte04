@@ -1,6 +1,6 @@
 #!/bin/bash
 usage() {
-    echo "Mensaje de prueba"
+    echo "sh show-attackers.sh [log]"
     exit 1
 }
 if [ $# -eq 0]; then
