@@ -1,13 +1,13 @@
 #!/bin/bash
 usage() {
-    echo "sh show-attackers.sh [log]"
+    echo "sh show-attackers.sh [fichero-log]"
     exit 1
 }
-if [ $# -eq 0]; then
+if [ $# -eq 0 ]; then
     echo "Debes establecer un fichero como argumento."
     usage
 fi
-if [ $# -gt 1]; then
+if [ $# -gt 1 ]; then
     echo "Debes introducir un único argumento."
     usage
 fi
